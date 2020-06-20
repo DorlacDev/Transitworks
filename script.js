@@ -22,5 +22,3 @@ var modify = (function() {
     let submit = document.querySelector('#submit');
     submit.addEventListener('onclick', login, false);
 }());
-xXX
-console.log(legend.textContent)
