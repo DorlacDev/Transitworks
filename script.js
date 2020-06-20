@@ -19,6 +19,6 @@ function login() {
 }
 
 var modify = (function() {
-    let submit = document.querySelector('#submit');
-    submit.addEventListener('onclick', login, false);
+    let button = document.querySelector('button');
+    button.addEventListener('click', login);
 }());
